@@ -1,0 +1,39 @@
+modLoader = "lowcodefml"
+loaderVersion = "[2,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/TheLMiffy1111/HalcyonJEI/issues"
+
+[[mods]]
+	modId = "halcyonjei"
+	version = "0@VERSION@"
+	displayName = "HalcyonJEI"
+	description = "An addon to Halcyon that adds JEI support."
+	logoFile = "halcyonjei.logo.png"
+	authors = "TheLMiffy1111"
+	displayURL = "https://www.curseforge.com/minecraft/mc-mods/halcyonjei"
+
+[[dependencies.halcyonjei]]
+	modId = "minecraft"
+	versionRange = "[1.21,1.21.2)"
+	type = "required"
+
+[[dependencies.halcyonjei]]
+	modId = "jei"
+	versionRange = "*"
+	type = "required"
+
+[[dependencies.halcyonjei]]
+	modId = "jeidrawables"
+	versionRange = "*"
+	type = "required"
+
+[[dependencies.halcyonjei]]
+	modId = "datanessence"
+	versionRange = "[0.3.5,)"
+	type = "required"
+
+[[dependencies.halcyonjei]]
+	modId = "emi"
+	versionRange = "*"
+	type = "discouraged"
+	reason = "Halcyon has native EMI support"
