@@ -1,6 +1,6 @@
 package thelm.halcyonjei.recipe.category;
 
-import EsetKalenko.Halcyon.DataNEssence;
+import EsetKalenko.Halcyon.Halcyon;
 import EsetKalenko.Halcyon.recipe.MineralPurificationRecipe;
 import EsetKalenko.Halcyon.screen.DataTabletScreen;
 import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
@@ -18,12 +18,12 @@ import thelm.jeidrawables.gui.render.ResourceDrawable;
 
 public class MineralPurificationRecipeCategory extends AbstractRecipeCategory<RecipeHolder<MineralPurificationRecipe>> {
 
-	public static final Component TITLE = Component.translatable("emi.category.datanessence.mineral_purification");
-	public static final Component AVERAGE_YIELD = Component.translatable("emi.datanessence.average_yield");
-	public static final Component NUGGET_MULT = Component.translatable("emi.datanessence.nugget_mult");
+	public static final Component TITLE = Component.translatable("emi.category.Halcyon.mineral_purification");
+	public static final Component AVERAGE_YIELD = Component.translatable("emi.Halcyon.average_yield");
+	public static final Component NUGGET_MULT = Component.translatable("emi.Halcyon.nugget_mult");
 
 	public static final ResourceDrawable BACKGROUND = new ResourceDrawable(DataTabletScreen.TEXTURE_CRAFTING2, 10, 136, 123, 60);
-	public static final ResourceDrawable NUGGET_MULT_ICON = new ResourceDrawable(DataNEssence.locate("textures/gui/emi_icons.png"), 128, 16, 8, 8);
+	public static final ResourceDrawable NUGGET_MULT_ICON = new ResourceDrawable(Halcyon.locate("textures/gui/emi_icons.png"), 128, 16, 8, 8);
 
 	public MineralPurificationRecipeCategory() {
 		super(HalcyonJEI.MINERAL_PURIFICATION, TITLE);

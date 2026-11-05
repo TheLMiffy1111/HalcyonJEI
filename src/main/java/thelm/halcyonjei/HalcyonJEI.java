@@ -3,7 +3,7 @@ package thelm.halcyonjei;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import EsetKalenko.Halcyon.DataNEssence;
+import EsetKalenko.Halcyon.Halcyon;
 import EsetKalenko.Halcyon.recipe.DryingRecipe;
 import EsetKalenko.Halcyon.recipe.EntropicProcessingRecipe;
 import EsetKalenko.Halcyon.recipe.FluidMixingRecipe;
@@ -72,15 +72,15 @@ public class HalcyonJEI implements IModPlugin {
 	public static IJeiRuntime jeiRuntime;
 
 	//public static final List<RecipeType<?>> RECIPE_TYPES = new ArrayList<>();
-	public static final RecipeType<RecipeHolder<IFabricationRecipe>> FABRICATION = RecipeType.createRecipeHolderType(DataNEssence.locate("fabrication"));
-	public static final RecipeType<RecipeHolder<InfusionRecipe>> INFUSION = RecipeType.createRecipeHolderType(DataNEssence.locate("infusion"));
-	public static final RecipeType<RecipeHolder<EntropicProcessingRecipe>> ENTROPIC_PROCESSING = RecipeType.createRecipeHolderType(DataNEssence.locate("entropic_processing"));
-	public static final RecipeType<RecipeHolder<FluidMixingRecipe>> FLUID_MIXING = RecipeType.createRecipeHolderType(DataNEssence.locate("fluid_mixing"));
-	public static final RecipeType<RecipeHolder<SynthesisRecipe>> SYNTHESIS = RecipeType.createRecipeHolderType(DataNEssence.locate("synthesis"));
-	public static final RecipeType<RecipeHolder<MetalShaperRecipe>> METAL_SHAPING = RecipeType.createRecipeHolderType(DataNEssence.locate("metal_shaping"));
-	public static final RecipeType<RecipeHolder<MeltingRecipe>> MELTING = RecipeType.createRecipeHolderType(DataNEssence.locate("melting"));
-	public static final RecipeType<RecipeHolder<DryingRecipe>> DRYING = RecipeType.createRecipeHolderType(DataNEssence.locate("drying"));
-	public static final RecipeType<RecipeHolder<MineralPurificationRecipe>> MINERAL_PURIFICATION = RecipeType.createRecipeHolderType(DataNEssence.locate("mineral_purification"));
+	public static final RecipeType<RecipeHolder<IFabricationRecipe>> FABRICATION = RecipeType.createRecipeHolderType(Halcyon.locate("fabrication"));
+	public static final RecipeType<RecipeHolder<InfusionRecipe>> INFUSION = RecipeType.createRecipeHolderType(Halcyon.locate("infusion"));
+	public static final RecipeType<RecipeHolder<EntropicProcessingRecipe>> ENTROPIC_PROCESSING = RecipeType.createRecipeHolderType(Halcyon.locate("entropic_processing"));
+	public static final RecipeType<RecipeHolder<FluidMixingRecipe>> FLUID_MIXING = RecipeType.createRecipeHolderType(Halcyon.locate("fluid_mixing"));
+	public static final RecipeType<RecipeHolder<SynthesisRecipe>> SYNTHESIS = RecipeType.createRecipeHolderType(Halcyon.locate("synthesis"));
+	public static final RecipeType<RecipeHolder<MetalShaperRecipe>> METAL_SHAPING = RecipeType.createRecipeHolderType(Halcyon.locate("metal_shaping"));
+	public static final RecipeType<RecipeHolder<MeltingRecipe>> MELTING = RecipeType.createRecipeHolderType(Halcyon.locate("melting"));
+	public static final RecipeType<RecipeHolder<DryingRecipe>> DRYING = RecipeType.createRecipeHolderType(Halcyon.locate("drying"));
+	public static final RecipeType<RecipeHolder<MineralPurificationRecipe>> MINERAL_PURIFICATION = RecipeType.createRecipeHolderType(Halcyon.locate("mineral_purification"));
 
 	@Override
 	public ResourceLocation getPluginUid() {

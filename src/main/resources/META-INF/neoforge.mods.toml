@@ -28,8 +28,8 @@ issueTrackerURL = "https://github.com/TheLMiffy1111/HalcyonJEI/issues"
 	type = "required"
 
 [[dependencies.halcyonjei]]
-	modId = "datanessence"
-	versionRange = "[0.3.5,)"
+	modId = "halcyon"
+	versionRange = "[0.4,)"
 	type = "required"
 
 [[dependencies.halcyonjei]]

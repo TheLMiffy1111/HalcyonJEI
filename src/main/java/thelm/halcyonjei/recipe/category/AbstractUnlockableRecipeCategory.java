@@ -1,6 +1,6 @@
 package thelm.halcyonjei.recipe.category;
 
-import EsetKalenko.Halcyon.DataNEssence;
+import EsetKalenko.Halcyon.Halcyon;
 import EsetKalenko.Halcyon.moddata.ClientPlayerUnlockedEntries;
 import EsetKalenko.Halcyon.recipe.IHasRequiredKnowledge;
 import mezz.jei.api.gui.ingredient.IRecipeSlotsView;
@@ -18,12 +18,12 @@ public abstract class AbstractUnlockableRecipeCategory<R extends Recipe<?> & IHa
 	public static final Component LOCKED_TEXT_1 = Component.translatable("emi.datanessence.recipe_locked_line_1");
 	public static final Component LOCKED_TEXT_2 = Component.translatable("emi.datanessence.recipe_locked_line_2");
 
-	public static final ResourceDrawable LOCKED_BACKGROUND = new ResourceDrawable(DataNEssence.locate("textures/gui/emi_recipe_locked.png"), 0, 0, 123, 60);
+	public static final ResourceDrawable LOCKED_BACKGROUND = new ResourceDrawable(Halcyon.locate("textures/gui/emi_recipe_locked.png"), 0, 0, 123, 60);
 
-	public static final ResourceLocation ESSENCE_KEY = DataNEssence.locate("essence");
-	public static final ResourceLocation LUNAR_ESSENCE_KEY = DataNEssence.locate("lunar_essence");
-	public static final ResourceLocation NATURAL_ESSENCE_KEY = DataNEssence.locate("natural_essence");
-	public static final ResourceLocation EXOTIC_ESSENCE_KEY = DataNEssence.locate("exotic_essence");
+	public static final ResourceLocation ESSENCE_KEY = Halcyon.locate("essence");
+	public static final ResourceLocation LUNAR_ESSENCE_KEY = Halcyon.locate("lunar_essence");
+	public static final ResourceLocation NATURAL_ESSENCE_KEY = Halcyon.locate("natural_essence");
+	public static final ResourceLocation EXOTIC_ESSENCE_KEY = Halcyon.locate("exotic_essence");
 
 	public AbstractUnlockableRecipeCategory(RecipeType<RecipeHolder<R>> recipeType, Component title) {
 		super(recipeType, title);

@@ -29,6 +29,7 @@ repositories {
 			}
 		}
 		filter {
+			includeGroup "net.mezzdev.config"
 			includeGroup "mezz.jei"
 		}
 	}
@@ -61,7 +62,7 @@ def specVersion = "21.1"
 def vendor = "thelm"
 
 group = "thelm.halcyonjei"
-version = "21.1.0"
+version = "21.1.1"
 
 def archivesName = modName
 base.archivesName = archivesName
@@ -103,7 +104,8 @@ dependencies {
 	neoForge "net.neoforged:neoforge:21.1.249"
 
 	// JEI
-	implementation("mezz.jei:jei-1.21.1-neoforge:19.44.0.405") {transitive = false}
+	implementation("net.mezzdev.config:mezz_config-1.21.1-neoforge:0.6.7") {transitive = false}
+	implementation("mezz.jei:jei-1.21.1-neoforge:19.57.0.450") {transitive = false}
 	include(implementation("thelm.jeidrawables:JEIDrawables-NeoForge:21.1.7"))
 
 	// Halcyon Dependencies
@@ -111,7 +113,7 @@ dependencies {
 	implementation "curse.maven:yeetusexperimentus-635427:5444189"
 
 	// Halcyon
-	implementation "curse.maven:data-essence-1189360:8060172"
+	implementation "curse.maven:data-essence-1189360:8707602"
 }
 
 def replacements = [
