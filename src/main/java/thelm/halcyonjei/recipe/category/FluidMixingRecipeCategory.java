@@ -19,7 +19,7 @@ import thelm.jeidrawables.gui.render.ResourceDrawable;
 
 public class FluidMixingRecipeCategory extends AbstractUnlockableRecipeCategory<FluidMixingRecipe> {
 
-	public static final Component TITLE = Component.translatable("emi.category.datanessence.fluid_mixing");
+	public static final Component TITLE = Component.translatable("emi.category.halcyon.fluid_mixing");
 
 	public static final ResourceDrawable BACKGROUND = new ResourceDrawable(DataTabletScreen.TEXTURE_CRAFTING, 10, 76, 123, 60);
 

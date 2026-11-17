@@ -62,7 +62,7 @@ def specVersion = "21.1"
 def vendor = "thelm"
 
 group = "thelm.halcyonjei"
-version = "21.1.1"
+version = "21.1.2"
 
 def archivesName = modName
 base.archivesName = archivesName
@@ -104,7 +104,7 @@ dependencies {
 	neoForge "net.neoforged:neoforge:21.1.249"
 
 	// JEI
-	implementation("net.mezzdev.config:mezz_config-1.21.1-neoforge:0.6.7") {transitive = false}
+	implementation("net.mezzdev.config:mezz_config-1.21.1-neoforge:0.7.1") {transitive = false}
 	implementation("mezz.jei:jei-1.21.1-neoforge:19.57.0.450") {transitive = false}
 	include(implementation("thelm.jeidrawables:JEIDrawables-NeoForge:21.1.7"))
 

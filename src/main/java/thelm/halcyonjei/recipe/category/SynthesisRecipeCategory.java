@@ -19,7 +19,7 @@ import thelm.jeidrawables.gui.render.ResourceDrawable;
 
 public class SynthesisRecipeCategory extends AbstractUnlockableRecipeCategory<SynthesisRecipe> {
 
-	public static final Component TITLE = Component.translatable("emi.category.datanessence.synthesis");
+	public static final Component TITLE = Component.translatable("emi.category.halcyon.synthesis");
 
 	public static final ResourceDrawable BACKGROUND = new ResourceDrawable(DataTabletScreen.TEXTURE_CRAFTING, 133, 76, 123, 60);
 

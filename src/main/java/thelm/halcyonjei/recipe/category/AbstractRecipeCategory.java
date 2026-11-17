@@ -130,6 +130,6 @@ public abstract class AbstractRecipeCategory<R> implements IRecipeCategory<R> {
 	}
 
 	public Component getTimeComponent(int time) {
-		return Component.translatable("emi.datanessence.time_seconds", time / 20D);
+		return Component.translatable("emi.halcyon.time_seconds", time / 20D);
 	}
 }

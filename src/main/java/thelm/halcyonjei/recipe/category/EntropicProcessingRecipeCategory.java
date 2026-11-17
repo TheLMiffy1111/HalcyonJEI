@@ -15,7 +15,7 @@ import thelm.jeidrawables.gui.render.ResourceDrawable;
 
 public class EntropicProcessingRecipeCategory extends AbstractRecipeCategory<RecipeHolder<EntropicProcessingRecipe>> {
 
-	public static final Component TITLE = Component.translatable("emi.category.datanessence.entropic_processing");
+	public static final Component TITLE = Component.translatable("emi.category.halcyon.entropic_processing");
 
 	public static final ResourceDrawable BACKGROUND = new ResourceDrawable(DataTabletScreen.TEXTURE_CRAFTING, 133, 136, 123, 60);
 

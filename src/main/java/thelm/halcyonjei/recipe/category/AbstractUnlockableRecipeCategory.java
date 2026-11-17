@@ -15,8 +15,8 @@ import thelm.jeidrawables.gui.render.ResourceDrawable;
 
 public abstract class AbstractUnlockableRecipeCategory<R extends Recipe<?> & IHasRequiredKnowledge> extends AbstractRecipeCategory<RecipeHolder<R>> {
 
-	public static final Component LOCKED_TEXT_1 = Component.translatable("emi.datanessence.recipe_locked_line_1");
-	public static final Component LOCKED_TEXT_2 = Component.translatable("emi.datanessence.recipe_locked_line_2");
+	public static final Component LOCKED_TEXT_1 = Component.translatable("emi.halcyon.recipe_locked_line_1");
+	public static final Component LOCKED_TEXT_2 = Component.translatable("emi.halcyon.recipe_locked_line_2");
 
 	public static final ResourceDrawable LOCKED_BACKGROUND = new ResourceDrawable(Halcyon.locate("textures/gui/emi_recipe_locked.png"), 0, 0, 123, 60);
 

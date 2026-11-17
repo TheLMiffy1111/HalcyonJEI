@@ -15,7 +15,7 @@ import thelm.jeidrawables.gui.render.ResourceDrawable;
 
 public class MetalShapingRecipeCategory extends AbstractRecipeCategory<RecipeHolder<MetalShaperRecipe>> {
 
-	public static final Component TITLE = Component.translatable("emi.category.datanessence.metal_shaping");
+	public static final Component TITLE = Component.translatable("emi.category.halcyon.metal_shaping");
 
 	public static final ResourceDrawable BACKGROUND = new ResourceDrawable(DataTabletScreen.TEXTURE_CRAFTING, 133, 16, 123, 60);
 

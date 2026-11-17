@@ -15,7 +15,7 @@ import thelm.jeidrawables.gui.render.ResourceDrawable;
 
 public class DryingRecipeCategory extends AbstractRecipeCategory<RecipeHolder<DryingRecipe>> {
 
-	public static final Component TITLE = Component.translatable("emi.category.datanessence.drying");
+	public static final Component TITLE = Component.translatable("emi.category.halcyon.drying");
 
 	public static final ResourceDrawable BACKGROUND = new ResourceDrawable(DataTabletScreen.TEXTURE_CRAFTING2, 133, 196, 123, 60);
 

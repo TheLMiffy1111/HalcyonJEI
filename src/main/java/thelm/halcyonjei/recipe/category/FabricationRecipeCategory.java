@@ -23,7 +23,7 @@ import thelm.jeidrawables.gui.render.ResourceDrawable;
 
 public class FabricationRecipeCategory extends AbstractUnlockableRecipeCategory<IFabricationRecipe> {
 
-	public static final Component TITLE = Component.translatable("emi.category.datanessence.fabrication");
+	public static final Component TITLE = Component.translatable("emi.category.halcyon.fabrication");
 
 	public static final ResourceDrawable BACKGROUND = new ResourceDrawable(DataTabletScreen.TEXTURE_CRAFTING, 10, 196, 123, 60);
 

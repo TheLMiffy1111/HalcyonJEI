@@ -15,7 +15,7 @@ import thelm.jeidrawables.gui.render.ResourceDrawable;
 
 public class MeltingRecipeCategory extends AbstractRecipeCategory<RecipeHolder<MeltingRecipe>> {
 
-	public static final Component TITLE = Component.translatable("emi.category.datanessence.melting");
+	public static final Component TITLE = Component.translatable("emi.category.halcyon.melting");
 
 	public static final ResourceDrawable BACKGROUND = new ResourceDrawable(DataTabletScreen.TEXTURE_CRAFTING2, 10, 196, 123, 60);
 

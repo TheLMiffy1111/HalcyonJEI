@@ -18,7 +18,7 @@ import thelm.jeidrawables.gui.render.ResourceDrawable;
 
 public class InfusionRecipeCategory extends AbstractUnlockableRecipeCategory<InfusionRecipe> {
 
-	public static final Component TITLE = Component.translatable("emi.category.datanessence.infusion");
+	public static final Component TITLE = Component.translatable("emi.category.halcyon.infusion");
 
 	public static final ResourceDrawable BACKGROUND = new ResourceDrawable(DataTabletScreen.TEXTURE_CRAFTING, 10, 136, 123, 60);
 
